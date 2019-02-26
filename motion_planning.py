@@ -211,6 +211,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--port', type=int, default=5760, help='Port number')
     parser.add_argument('--host', type=str, default='127.0.0.1', help="host address, i.e. '127.0.0.1'")
+    # set as default new goal location lon: -122.39755 lat: 37.79258 alt: 0
     parser.add_argument('--goal_lon', type=str, default='-122.39755', help="Goal longitude")
     parser.add_argument('--goal_lat', type=str, default='37.79258', help="Goal latitude")
     parser.add_argument('--goal_alt', type=str, default='0', help ="Goal altitude")
